@@ -1,0 +1,49 @@
+{
+  "index": "/index.html",
+  "appData": {
+    "test": true
+  },
+  "assetGroups": [{
+    "name": "KataSuperH",
+    "resources": {
+      "files": [
+        "/assets/**/*",
+        "!/ngsw-worker.js",
+        "/manifest.json"
+      ],
+      "versionedFiles": [
+        "/**/*.html",
+        "/**/*.js",
+        "/**/*.css"
+      ],
+      "urls": [
+        "https://fonts.googleapis.com/icon?family=Material+Icons"
+        
+      ]
+    }
+  }],
+ "dataGroups": [{
+    "name": "api-freshness",
+    "urls": [
+      "/otra"
+    ],
+    "cacheConfig": {
+      "maxSize": 100,
+      "maxAge": "3d",
+      "timeout": "1m",
+      "strategy": "freshness"
+    }
+  }, 
+  {
+    "name": "api-performance",
+    "urls": [
+      "/detail"
+    ],
+    "cacheConfig": {
+      "maxSize": 100,
+      "maxAge": "3d",
+      "timeout": "1m",
+      "strategy": "performance"
+    }
+  }]
+}

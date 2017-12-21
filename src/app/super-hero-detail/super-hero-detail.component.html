@@ -1,0 +1,15 @@
+<mat-toolbar *ngIf="hero" >{{hero.name}}</mat-toolbar>
+<mat-progress-bar  *ngIf="isLoading" mode="indeterminate" color="warn"  ></mat-progress-bar>
+
+<mat-card  *ngIf="hero" class="hero-card-detail">
+       
+  <mat-card-title class="hero-card-detail-title" [style.background]="'url(' + hero.photo + ')'">
+        <img *ngIf="hero.isAvenger" class="hero-group" src="/assets/ic_avengers.png" width="60"/>
+  </mat-card-title>
+
+  <mat-card-content class="hero-card-detail-content">
+
+    <h2 id="hero-name">{{hero.name}}</h2>
+    <p>{{hero.description}}</p>
+  </mat-card-content>
+</mat-card>

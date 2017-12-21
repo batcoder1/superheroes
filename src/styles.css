@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+html {
+  background-color: #222222;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+mat-toolbar {
+  margin: 0!important;
+  color: white!important;
+  font-weight: bold!important;
+  background-color: #3f3f3f!important;
+}
+
+mat-list {
+  padding-top: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+  mat-list {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+   
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 621px) {
+  mat-list {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+}
+
+@media only screen and (max-width: 620px) and (min-width: 555px) {
+  mat-list {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+   
+}
+
+ 

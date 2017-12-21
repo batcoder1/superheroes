@@ -1,0 +1,11 @@
+<mat-toolbar  id="title" >Kata Super Heroes</mat-toolbar>
+<mat-progress-bar  *ngIf="isLoading"  mode="indeterminate" color="warn"  ></mat-progress-bar>
+<mat-list>
+  <mat-card *ngFor="let hero of heroes$ | async; let i = index" class="mat-card-wrapper hero-card" (click)="gotoDetail(hero)" 
+   [style.background]="'url(' + hero.photo + ')'" >
+      <mat-card-title>
+        <span id="hero-name-{{i}}" class="hero-name">{{hero.name}}</span>
+        <img *ngIf="hero.isAvenger" class="hero-group" src="/assets/ic_avengers.png" width="60"/>
+      </mat-card-title>
+  </mat-card>
+</mat-list>

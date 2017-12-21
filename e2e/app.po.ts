@@ -5,7 +5,17 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getTitle() {
+    return element(by.id('title')).getText();
+  }
+  getHeroName(id: number) {
+    return element(by.id('hero-name-' + id)).getText();
+  }
+  getHeroDetailName() {
+    return element(by.id('hero-name')).getText();
+  }
+
+  clickHero(id: number) {
+    element(by.id('hero-name-' + id)).click();
   }
 }

@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "appData": {
+    "test": true
+  },
+  "assetGroups": [
+    {
+      "name": "KataSuperH",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/manifest.json",
+        "/assets/android-icon-144x144.png",
+        "/assets/android-icon-192x192.png",
+        "/assets/android-icon-36x36.png",
+        "/assets/android-icon-48x48.png",
+        "/assets/android-icon-72x72.png",
+        "/assets/android-icon-96x96.png",
+        "/assets/ic_avengers.png",
+        "/assets/ic_launcher.png",
+        "/assets/marvel.png",
+        "/assets/favicon/favicon-16x16.png",
+        "/assets/favicon/favicon-32x32.png",
+        "/assets/favicon/favicon-96x96.png",
+        "/assets/favicon/favicon.ico",
+        "/assets/favicon/manifest.json",
+        "/index.html",
+        "/inline.d3a65f4cc133b5e1f9e2.bundle.js",
+        "/main.e8725a85200000b723e2.bundle.js",
+        "/ngsw-worker.js",
+        "/polyfills.55440df0c9305462dd41.bundle.js",
+        "/styles.d06e2d61eff1c11ccfca.bundle.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "patterns": [
+        "\\/otra"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 60000,
+      "version": 1
+    },
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/detail"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 60000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/index.html": "4352a7286c9e0056fad8f6fa78709f3b5ef29b49",
+    "/inline.d3a65f4cc133b5e1f9e2.bundle.js": "aa079de0807218c565c1608b6097cf76b6ac1b41",
+    "/main.e8725a85200000b723e2.bundle.js": "f2a5b65190813b22c3e6bb80d222205f297be52f",
+    "/ngsw-worker.js": "086791abe5328093f11be9462a1767b4185f0fa3",
+    "/polyfills.55440df0c9305462dd41.bundle.js": "c3b13e2980f9515f4726fd2621440bd7068baa3b",
+    "/styles.d06e2d61eff1c11ccfca.bundle.css": "2aea4cfa73e3b2682fd35de71409f7348c566f15",
+    "/manifest.json": "fc0fe48124c3caa767b36f85ea9192df28ab1392",
+    "/assets/android-icon-144x144.png": "3727532bb8e3edccf4922ec9d84daf8006e102a4",
+    "/assets/android-icon-192x192.png": "9078ffbfc24b201f45712fc65962cf763a72712b",
+    "/assets/android-icon-36x36.png": "0bc3a6da59218b7d3bb616c96e16c0b2e8656b5d",
+    "/assets/android-icon-48x48.png": "a484c93ae6a6db558e9f70ac948e6cae0e23c7f4",
+    "/assets/android-icon-72x72.png": "21effd401a6de0091809477ed41ae97d1c7efdb0",
+    "/assets/android-icon-96x96.png": "5e4ff19a2269ba33936deca70a51279f9088d69b",
+    "/assets/ic_avengers.png": "d18e4c133a02b4fe67d136c1a790982f9af3d6e5",
+    "/assets/ic_launcher.png": "bd4a51b4aad1f2e405502e65a5d8e8462fba95a3",
+    "/assets/marvel.png": "289f68c10cc9c77531e4cdf48f381dc0541eb2c0",
+    "/assets/favicon/favicon-16x16.png": "904ddfa86806d7f7a9f4ee24b524c8af09e78d56",
+    "/assets/favicon/favicon-32x32.png": "20f392577af2483bb1f0e690cc43327c518cd24c",
+    "/assets/favicon/favicon-96x96.png": "5e4ff19a2269ba33936deca70a51279f9088d69b",
+    "/assets/favicon/favicon.ico": "a5c413d790f555456bac74bbe678c80e41d2118a",
+    "/assets/favicon/manifest.json": "d11febf9e708a9e11baee37ed7dc5e99902580be"
+  }
+}

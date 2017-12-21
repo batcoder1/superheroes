@@ -1,0 +1,131 @@
+ .hero-card-detail {
+   color: white;
+   padding: 0;
+   background-color: #222222;
+ }
+
+ .hero-card-detail-title {
+   color: white;
+   height: 600px;
+   background-repeat: no-repeat!important;
+   background-position: center!important;
+   background-size: 100%!important;
+ }
+
+ .hero-card-detail-content {
+   color: white;
+   font-weight: bold;
+   padding: 5px 20px;
+   height: auto;
+ }
+
+ .hero-card-detail p {
+   margin: 5px;
+ }
+
+ .hero-group {
+   position: absolute;
+   bottom: 40%;
+   right: 5%;
+   color: white;
+ }
+
+ 
+
+ @media only screen and (min-width: 1024px) {
+   .hero-group {
+     position: absolute;
+     bottom: 30%;
+   }
+   .hero-card-detail-title {
+     height: 590px;
+   }
+ }
+
+ @media only screen and (max-width: 1023px) and (min-width: 621px) {
+   .hero-group {
+     position: absolute;
+     bottom: 37%;
+   }
+   .hero-card-detail-title {
+     height: 400px;
+   }
+  
+ }
+
+ @media only screen and (max-width: 620px) and (min-width: 555px) {
+   .hero-group {
+     position: absolute;
+     bottom: 35%;
+   }
+   .hero-card-detail-title {
+     height: 350px;
+   }
+   
+ }
+
+ @media only screen and (max-width: 554px) and (min-width: 524px) {
+   .hero-group {
+     position: absolute;
+     bottom: 37%;
+   }
+   .hero-card-detail-title {
+     height: 300px;
+   }
+   
+}
+
+ @media only screen and (max-width: 523px) and (min-width: 470px) {
+   .hero-group {
+     position: absolute;
+     bottom: 39%;
+   }
+   .hero-card-detail-title {
+     height: 250px;
+   }
+   
+ }
+
+ @media only screen and (max-width: 469px) and (min-width: 380px) {
+   .hero-group {
+     position: absolute;
+     bottom: 50%;
+   }
+   .hero-card-detail-title {
+     height: 200px;
+   }
+    
+ }
+
+ @media only screen and (max-width: 379px) and (min-width: 295px) {
+   .hero-group {
+     position: absolute;
+     bottom: 55%;
+   }
+   .hero-card-detail-title {
+     height: 200px;
+   }
+    
+ }
+
+ @media only screen and (max-width: 294px) and (min-width: 260px) {
+   .hero-group {
+     position: absolute;
+     bottom: 60%;
+   }
+   .hero-card-detail-title {
+     height: 200px;
+   }
+   
+ }
+
+ @media only screen and (max-width: 269px) and (min-width: 200px) {
+   .hero-group {
+     position: absolute;
+     bottom: 65%;
+   }
+   .hero-card-detail-title {
+     height: 200px;
+   }
+    
+ }
