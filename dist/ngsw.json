@@ -23,7 +23,6 @@
         "/assets/favicon/favicon-16x16.png",
         "/assets/favicon/favicon-32x32.png",
         "/assets/favicon/favicon-96x96.png",
-        "/assets/favicon/favicon.ico",
         "/assets/favicon/manifest.json",
         "/index.html",
         "/inline.d3a65f4cc133b5e1f9e2.bundle.js",
@@ -62,7 +61,7 @@
     }
   ],
   "hashTable": {
-    "/index.html": "4352a7286c9e0056fad8f6fa78709f3b5ef29b49",
+    "/index.html": "7870f6cc78218bf436812c64ea15291fdd392da7",
     "/inline.d3a65f4cc133b5e1f9e2.bundle.js": "aa079de0807218c565c1608b6097cf76b6ac1b41",
     "/main.e8725a85200000b723e2.bundle.js": "f2a5b65190813b22c3e6bb80d222205f297be52f",
     "/ngsw-worker.js": "086791abe5328093f11be9462a1767b4185f0fa3",
@@ -81,7 +80,6 @@
     "/assets/favicon/favicon-16x16.png": "904ddfa86806d7f7a9f4ee24b524c8af09e78d56",
     "/assets/favicon/favicon-32x32.png": "20f392577af2483bb1f0e690cc43327c518cd24c",
     "/assets/favicon/favicon-96x96.png": "5e4ff19a2269ba33936deca70a51279f9088d69b",
-    "/assets/favicon/favicon.ico": "a5c413d790f555456bac74bbe678c80e41d2118a",
     "/assets/favicon/manifest.json": "d11febf9e708a9e11baee37ed7dc5e99902580be"
   }
 }
